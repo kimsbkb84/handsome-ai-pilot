@@ -13,13 +13,13 @@ def main():
     with col1:
         st.info("새로운 패션 이미지를 등록하고 태깅합니다.")
         # 버튼을 누르면 pages 폴더 안의 upload.py로 이동
-        if st.button("1. 이미지 업로드 하러 가기 ➡️", use_container_width=True):
+        if st.button("1. 이미지 업로드 ➡️", use_container_width=True):
             st.switch_page("pages/upload.py")
 
     with col2:
         st.info("원하는 스타일의 옷을 검색합니다.")
         # 버튼을 누르면 pages 폴더 안의 search.py로 이동
-        if st.button("2. 이미지 검색 하러 가기 ➡️", use_container_width=True):
+        if st.button("2. 이미지 검색 ➡️", use_container_width=True):
             st.switch_page("pages/search.py")
 
 if __name__ == "__main__":
