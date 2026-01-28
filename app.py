@@ -11,7 +11,7 @@ def main():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.info("새로운 패션 이미지를 등록하고 태깅합니다.")
+        st.info("새로운 패션 이미지를 등록하고 태깅합니다.") 
         # 버튼을 누르면 pages 폴더 안의 upload.py로 이동
         if st.button("1. 이미지 업로드 하러 가기 ➡️", use_container_width=True):
             st.switch_page("pages/upload.py")
